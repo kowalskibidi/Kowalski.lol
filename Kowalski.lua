@@ -17,7 +17,7 @@ StarterGui:SetCore("SendNotification", {
 task.wait(8)
 StarterGui:SetCore("SendNotification", {
     Title = "❗",
-    Text = "leaked by .gg/sleepyhub if you dont listen to king vyylora you gotta face the consequences",
+    Text = "i skidded ts and yeah...",
     Duration = 8, -- seconds the notification stays on screen
     Button1 = "Got it"
 })
@@ -15983,4 +15983,5 @@ if hookfunction and not Solara and LPH_OBFUSCATED and Game_Name == "South Bronx"
 
         return _FireServer(self, ...)
     end)
+
 end
