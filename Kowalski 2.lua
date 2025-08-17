@@ -332,7 +332,7 @@ local Config = {
 
         ["InfiniteHealth"] = false;
 
-        ["StoreDupedItem"] = false;
+        ["StoreDupedItem"] = true;
         ["Selected_Location"] = "...";
         ["ClickTeleportActive"] = false;
 
@@ -14539,7 +14539,7 @@ if Game_Name == "The Bronx" then
                             ReplicatedStorage.ListWeaponRemote:FireServer(ToolName, 99999)
                         end)
 
-                        task.wait(.26)
+                        task.wait(.5)
 
                         spawn(function()
                             ReplicatedStorage.BackpackRemote:InvokeServer('Store', ToolName)
@@ -14563,7 +14563,7 @@ if Game_Name == "The Bronx" then
                     end)
                 end})
 
-                DupingSection:label({wrapped = true, name = "This might bug if you have more than 1 of the item you're duping!"})
+                DupingSection:label({wrapped = true, name = "Ts might bug!"})
 
                 local VulnerabilitySection = Column:section({name = "Vulnerability Section", size = 0.347, default = false, side = 'right', icon = GetImage("unlocked.png")}) 
 
