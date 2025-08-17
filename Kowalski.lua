@@ -332,7 +332,7 @@ local Config = {
 
         ["InfiniteHealth"] = false;
 
-        ["StoreDupedItem"] = false;
+        ["StoreDupedItem"] = true;
         ["Selected_Location"] = "...";
         ["ClickTeleportActive"] = false;
 
@@ -15985,4 +15985,5 @@ if hookfunction and not Solara and LPH_OBFUSCATED and Game_Name == "South Bronx"
     end)
 
 end
+
 
