@@ -17,7 +17,7 @@ StarterGui:SetCore("SendNotification", {
 task.wait(8)
 StarterGui:SetCore("SendNotification", {
     Title = "❗",
-    Text = "i skidded ts and yeah...",
+    Text = "i skidded ts and yeah ASIANYUH IS GAY...",
     Duration = 8, -- seconds the notification stays on screen
     Button1 = "Got it"
 })
@@ -15985,5 +15985,6 @@ if hookfunction and not Solara and LPH_OBFUSCATED and Game_Name == "South Bronx"
     end)
 
 end
+
 
 
